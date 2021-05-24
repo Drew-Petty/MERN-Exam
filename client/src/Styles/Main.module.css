@@ -1,0 +1,30 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.status{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    height: 800px;
+}
+
+.project{
+    border: 1px black solid;
+}
+.yellow{
+    background-color: rgb(241, 241, 175);
+}
+.green{
+    background-color:rgb(121, 218, 121);
+}
+.red{
+    background-color: rgb(219, 134, 134);
+}
+.pastDue{
+    color: Red;
+}
+.normal{
+    color: black;
+}

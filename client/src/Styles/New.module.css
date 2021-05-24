@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.newView{
+    border: solid 1px black;
+    width: 500px;
+}
+.projectForm{
+padding: 10px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    color: red
+}
